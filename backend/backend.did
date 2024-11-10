@@ -1,0 +1,5 @@
+service : {
+  getBio: () -> (text) query;
+  getVisits: () -> (nat) query;
+  incrementVisits: () -> (nat);
+}
